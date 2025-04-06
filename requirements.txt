@@ -1,0 +1,6 @@
+crewai>=0.30.0     # Use a recent version
+crewai[tools]     # Installs dependencies for common tools
+langchain-ollama>=0.1.0     # For Ollama integration (replaces langchain-community for this import)
+ollama>=0.1.8      # Ollama Python client
+python-dotenv>=1.0.0 # For managing environment variables (good practice)
+pandas>=2.0.0     # For loading CSV data
