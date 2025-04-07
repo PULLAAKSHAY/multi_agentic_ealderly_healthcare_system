@@ -13,7 +13,7 @@ CSV_REMINDER = os.path.join("data", "daily_reminder.csv")
 # Specify the Ollama model you want to use (make sure it's pulled)
 # Examples: "llama3:8b-instruct", "mistral:7b-instruct", "phi3:mini"
 OLLAMA_MODEL_NAME = os.getenv("OLLAMA_MODEL_NAME", "ollama/phi3:mini")
-OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "https://apparent-anteater-epic.ngrok-free.app") # Default Ollama server root URL
+OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434/") # Default Ollama server root URL
 
 # --- Agent Configuration ---
 # Define default thresholds (These could eventually be user-specific and stored in DB)
